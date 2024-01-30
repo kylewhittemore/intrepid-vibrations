@@ -24,7 +24,6 @@ const NavStyles = styled.nav`
     a {
         color: white;
         text-decoration: none;
-        /* font-size: ; */
     }
 `
 
@@ -34,8 +33,8 @@ const Nav = () => {
             <ul>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#process">Process</a></li>
-                <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
             </ul>
         </NavStyles>
     )
