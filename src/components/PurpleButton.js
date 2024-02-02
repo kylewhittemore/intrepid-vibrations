@@ -6,8 +6,8 @@ const ButtonStyles = styled.button`
       padding: 15px 20px;
       font-size: 18px;
       border: none;
-      color: #663399;
-      background-color: white;
+      color: white;
+      background-color: #663399;
       cursor: pointer;
       
       &:hover {
@@ -19,7 +19,7 @@ const ButtonStyles = styled.button`
       }
 `
 
-export default function Button({ text }) {
+export default function PurpleButton({ text }) {
     return (
         <ButtonStyles>{text}</ButtonStyles>
     )

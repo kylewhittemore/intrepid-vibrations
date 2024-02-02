@@ -3,6 +3,7 @@ import 'normalize.css';
 import Nav from "../components/Nav";
 import styled from "styled-components";
 import Hero from "../components/Hero";
+import PurpleButton from "../components/PurpleButton";
 
 const offerings = [
   {
@@ -80,9 +81,6 @@ const IndexPage = () => {
               {offerings.map(offering => (
                 <li key={offering.url}>
                   <b>{offering.text}</b><br/>{offering.description}
-                  {/* <span>
-                    <p><b>{offering.text}</b><br/>{offering.description}</p>
-                  </span> */}
                 </li>
               ))}
             </ul>
@@ -135,11 +133,16 @@ const IndexPage = () => {
             <ul><b>
               <li>Initial consult with decoupling: free!</li>
               <li>Standalone Decoupling: <s>$50</s> $39 special!</li>
-              <li>Standalone Illumination: <s>$125</s> $89 special!</li>
+              <li>Standalone Illumination: <s>$100</s> $89 special!</li>
               <li>Standard Session (appx 1.5 hrs with integration): $150</li>
               <li>Soul Retrieval (appx 2.5 hours with integration): $250</li>
               </b></ul>
             <p>If you have questions, or would like to schedule an appointment, please email me at <a href="MAILTO: kyle@intrepidvibrations.com">kyle@intrepidvibrations.com</a></p>
+            <a href="https://app.acuityscheduling.com/schedule.php?owner=31368049">
+                <PurpleButton 
+                  text={"Book Now"}
+                />
+            </a>
           </ListSection>
         </Container>
       </Main>
