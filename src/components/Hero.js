@@ -17,7 +17,7 @@ const HeroText = styled.div`
   text-align: left;
   color: white;
   h1 {
-    margin-top: 0px;
+    margin-top: -60px;
   }
   p {
     margin-bottom: 30px;

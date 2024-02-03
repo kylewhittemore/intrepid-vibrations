@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import styled from "styled-components";
 import Hero from "../components/Hero";
 import PurpleButton from "../components/PurpleButton";
+import { StaticImage } from "gatsby-plugin-image"; 
 
 const offerings = [
   {
@@ -59,6 +60,12 @@ const Container = styled.div`
   max-width: 800px;
   margin: 0 auto;
 `
+const FlexContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+`
 const ListSection = styled.section`
   ul {
     padding-left: 20px;
@@ -108,23 +115,32 @@ const IndexPage = () => {
           </section>
           <section id="about">
             <h2>About Me</h2>
+            <FlexContainer>
+              <StaticImage
+                src="../images/headshot.png"
+                alt="Kyle Whittemore"
+                width={400}
+              />
+            </FlexContainer>
             <p>
               As a young man I was beset with dis-ease - I was uncomfortable in my own skin and the world in general. I had read alot, and was exposed to spiritual disciplines 
               that convinced me that there was a way to create serenity in myself and peace with the world around me. With all the exuberance and naievete of youth, I committed 
-              myself to a jouney of healing and spiritual discovery for the benefit of all beings.
+              myself to a jouney of healing and spiritual discovery for the benefit of all beings. While I have found myself lost many times along the way, I continue to walk 
+              that path to this day.
             </p>
-            <p>
+            {/* <p>
               My road took me to many amazing places to the soaring heights of wild and rugged mountains, to the depths of despair and addiction. Eventually I found out that wherever 
               I went, and whatever I did, there I was. I could try this or that, change jobs, locations, lovers, live like a vagabond, live like a king. I could wear a suit of altruism, 
               or one of nihilism. I could settle down or uproot and wander. I could find enlightenment on the magic bus, or on a cushion, or on a new adventure. Nothing ever changed
               because I didn't change.
-            </p>
-            <p>
+            </p> */}
+            {/* <p>
               It wasn't until life brought me fully to my knees, until I was hopeless and at the end of the road, that I realized that the only way to find what I was looking for was to look within, 
               and to trust that if I showed up, with that same earnestness that I had when I had begun my journey so many years ago, Spirit would do for me what I could never have done for myself.
-            </p>
+            </p> */}
             <p>
-              I am honored to help others find their own path, to find healing, and to allow the boundless benevolence of Spirit to bring joy, peace, and fulfillment into their lives.
+              I am certified as a Master Practicioner of Energy Medicine by <a href="https://thefourwinds.com/">The Four Winds Society</a>, and I am honored to help others to find their 
+              own path, to find healing, and to allow the boundless benevolence of Spirit to bring joy, peace, and fulfillment into their lives.
             </p>
           </section>
           <ListSection id="pricing">
