@@ -44,6 +44,10 @@ const Main = styled.main`
   padding-top: 60px;
   margin-bottom: 100px;
 
+  a {
+    color: #663399;
+  }
+
   p, li {
     line-height: 1.5;
   }
@@ -130,7 +134,7 @@ const IndexPage = () => {
           <section id="about">
             <h2>About Me</h2>
             <p>
-              I am certified as a Master Practicioner of Energy Medicine by <a href="https://thefourwinds.com/">The Four Winds Society</a>, and I am honored to help others to find their 
+              I am certified as a Master Practitioner of Energy Medicine by <a href="https://thefourwinds.com/">The Four Winds Society</a>, and I am honored to help others to find their 
               own path, to find healing, and to allow the boundless benevolence of Spirit to bring joy, peace, and fulfillment into their lives.
             </p>
             <FlexContainer>
