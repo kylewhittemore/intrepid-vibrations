@@ -109,7 +109,7 @@ const IndexPage = () => {
             <p>
               While your body might exist in the here and now, your luminous energy field is not bound by time or space. 
               Our fields are incredibly responsive to intent - both mine and yours - and intent is bound only by the imagination. 
-              While we may meet via video conference, the work is done in a place of timelessness - where we are all one.
+              While we may meet via video conference, the work is done outside of time and space - where we are all one.
               If you live in southern New Hampshire or Maine, arrangements can be made for an in-person session at your home.
             </p>
           </section>
@@ -122,12 +122,12 @@ const IndexPage = () => {
                 width={400}
               />
             </FlexContainer>
-            <p>
+            {/* <p>
               As a young man I was beset with dis-ease - I was uncomfortable in my own skin and the world in general. I had read alot, and was exposed to spiritual disciplines 
               that convinced me that there was a way to create serenity in myself and peace with the world around me. With all the exuberance and naievete of youth, I committed 
               myself to a jouney of healing and spiritual discovery for the benefit of all beings. While I have found myself lost many times along the way, I continue to walk 
               that path to this day.
-            </p>
+            </p> */}
             {/* <p>
               My road took me to many amazing places to the soaring heights of wild and rugged mountains, to the depths of despair and addiction. Eventually I found out that wherever 
               I went, and whatever I did, there I was. I could try this or that, change jobs, locations, lovers, live like a vagabond, live like a king. I could wear a suit of altruism, 
