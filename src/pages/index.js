@@ -94,7 +94,7 @@ const IndexPage = () => {
           </ListSection>
           <section id="process">
             <h2>The Process</h2>
-            <p>
+            {/* <p>
               We begin with a free consultation where I offer a complementary decoupling, answer your questions, and allow you to determine if I am a good fit for you.
               If I am a good fit, we will ideally work together over multiple sessions to progressively clear your field with decoupling, illuminations, extractions, 
               and acestral work, culminating in soul retrieval. I recommend about four sessions before a soul retrieval, and thereafter on an on-going basis as desired.
@@ -102,9 +102,23 @@ const IndexPage = () => {
               Further integration happens after our session and I may offer some 'homework' to facilitate the process. Sessions should be scheduled one to two weeks apart 
               allow each intervention to fully integrate. I primarily offer offer my services via video conferencing, but in-person sessions are possible with additional 
               arrangements. 
+            </p> */}
+            <p>
+              We begin with a free consultation where I offer a complementary decoupling, answer your questions, and allow you to determine if I am a good fit for you.
+              If I am a good fit, we will ideally work together over multiple sessions to progressively clear your field, culminating in soul retrieval. I recommend about 
+              four sessions before a soul retrieval, and thereafter on an on-going basis as desired.
+            </p>
+            <p>
+              Each session entails a brief interview to identify the issue we will work with, the intervention(s), and a discussion to begin the process of integration. 
+              Further integration happens after our session and I may offer some 'homework' to facilitate the process.   
+            </p>
+            <p>
+              Sessions should be scheduled one to two weeks apart allow each intervention to fully integrate. 
+              I primarily offer offer my services via video conferencing, but in-person sessions are possible with additional 
+              arrangements. 
             </p>
           </section>
-          <section>
+          {/* <section>
             <h2>Working Remotely</h2>
             <p>
               While your body might exist in the here and now, your luminous energy field is not bound by time or space. 
@@ -112,9 +126,13 @@ const IndexPage = () => {
               While we may meet via video conference, the work is done outside of time and space - where we are all one.
               If you live in southern New Hampshire or Maine, arrangements can be made for an in-person session at your home.
             </p>
-          </section>
+          </section> */}
           <section id="about">
             <h2>About Me</h2>
+            <p>
+              I am certified as a Master Practicioner of Energy Medicine by <a href="https://thefourwinds.com/">The Four Winds Society</a>, and I am honored to help others to find their 
+              own path, to find healing, and to allow the boundless benevolence of Spirit to bring joy, peace, and fulfillment into their lives.
+            </p>
             <FlexContainer>
               <StaticImage
                 src="../images/headshot.png"
@@ -138,12 +156,8 @@ const IndexPage = () => {
               It wasn't until life brought me fully to my knees, until I was hopeless and at the end of the road, that I realized that the only way to find what I was looking for was to look within, 
               and to trust that if I showed up, with that same earnestness that I had when I had begun my journey so many years ago, Spirit would do for me what I could never have done for myself.
             </p> */}
-            <p>
-              I am certified as a Master Practicioner of Energy Medicine by <a href="https://thefourwinds.com/">The Four Winds Society</a>, and I am honored to help others to find their 
-              own path, to find healing, and to allow the boundless benevolence of Spirit to bring joy, peace, and fulfillment into their lives.
-            </p>
           </section>
-          <ListSection id="pricing">
+          <ListSection id="booking">
             <h2>Pricing and Scheduling</h2>
             <p>I offer my services on a sliding scale, if you are unable to pay the full amount please reach out to make other arrangements</p>
             <ul><b>
@@ -153,7 +167,7 @@ const IndexPage = () => {
               <li>Standard Session (appx 1.5 hrs with integration): $150</li>
               <li>Soul Retrieval (appx 2.5 hours with integration): $250</li>
               </b></ul>
-            <p>If you have questions, or would like to schedule an appointment, please email me at <a href="MAILTO: kyle@intrepidvibrations.com">kyle@intrepidvibrations.com</a></p>
+            <p>If you have questions, please email me at <a href="MAILTO: kyle@intrepidvibrations.com">kyle@intrepidvibrations.com</a></p>
             <a href="https://app.acuityscheduling.com/schedule.php?owner=31368049">
                 <PurpleButton 
                   text={"Book Now"}
