@@ -103,8 +103,8 @@ const IndexPage = () => {
               If I am a good fit, we will ideally work together over multiple sessions to progressively clear your field with decoupling, illuminations, extractions, 
               and acestral work, culminating in soul retrieval. I recommend about four sessions before a soul retrieval, and thereafter on an on-going basis as desired.
               Each session entails a brief interview to identify the issue we will work with, the intervention(s), and a discussion to begin the process of integration. 
-              Further integration happens after our session and I may offer some 'homework' to facilitate the process. Sessions should be scheduled one to two weeks apart 
-              allow each intervention to fully integrate. I primarily offer offer my services via video conferencing, but in-person sessions are possible with additional 
+              Further integration happens after our session and I may suggest some 'homework' to facilitate the process. Sessions should be scheduled one to two weeks apart 
+              allow each intervention to fully integrate. I primarily offer my services via video conferencing, but in-person sessions are possible with additional 
               arrangements. 
             </p> */}
             <p>
@@ -114,11 +114,11 @@ const IndexPage = () => {
             </p>
             <p>
               Each session entails a brief interview to identify the issue we will work with, the intervention(s), and a discussion to begin the process of integration. 
-              Further integration happens after our session and I may offer some 'homework' to facilitate the process.   
+              Further integration happens after our session and I may suggest some 'homework' to facilitate the process.   
             </p>
             <p>
               Sessions should be scheduled one to two weeks apart allow each intervention to fully integrate. 
-              I primarily offer offer my services via video conferencing, but in-person sessions are possible with additional 
+              I primarily offer my services via video conferencing, but in-person sessions are possible with additional 
               arrangements. 
             </p>
           </section>
@@ -168,8 +168,8 @@ const IndexPage = () => {
               <li>Initial consult with decoupling: free!</li>
               <li>Standalone Decoupling: <s>$50</s> $39 special!</li>
               <li>Standalone Illumination: <s>$100</s> $89 special!</li>
-              <li>Standard Session (appx 1.5 hrs with integration): $150</li>
-              <li>Soul Retrieval (appx 2.5 hours with integration): $250</li>
+              <li>Standard Session (appx 1.5 hrs with integration): $125</li>
+              <li>Soul Retrieval (appx 2.5 hours with integration): $200</li>
               </b></ul>
             <p>If you have questions, please email me at <a href="MAILTO: kyle@intrepidvibrations.com">kyle@intrepidvibrations.com</a></p>
             <a href="https://app.acuityscheduling.com/schedule.php?owner=31368049">
