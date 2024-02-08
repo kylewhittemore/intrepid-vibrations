@@ -27,13 +27,11 @@ export default function Hero() {
     return (
         <HeroStyles>
           <HeroText>
-            <h1>
-              Intrepid Vibrations
-              <br />
-              <span>Shamanic Healing</span>
-            </h1>
+            <h1>Intrepid Vibrations</h1>
+            <h2>Shamanic Energy Medicine</h2>
             <p>
-              Clear your luminous energy field to release unhealthy patterns, heal past traumas, and learn to co-create with spirit to unlock your potential.
+              My name is Kyle Whittemore and I would like to help you to release unhealthy patterns, heal past traumas, 
+              and learn to co-create with spirit to unlock your potential.
             </p>
             <a href="https://app.acuityscheduling.com/schedule.php?owner=31368049&appointmentType=58509330">
                 <Button text={"Book a free consultation"} />
